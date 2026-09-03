@@ -28,3 +28,4 @@ C:\Users\rony1\W02-Assignment-ASP.NET-Core\obj\Debug\net8.0\refint\W02-Assignmen
 C:\Users\rony1\W02-Assignment-ASP.NET-Core\obj\Debug\net8.0\W02-Assignment-ASP.NET-Core.pdb
 C:\Users\rony1\W02-Assignment-ASP.NET-Core\obj\Debug\net8.0\W02-Assignment-ASP.NET-Core.genruntimeconfig.cache
 C:\Users\rony1\W02-Assignment-ASP.NET-Core\obj\Debug\net8.0\ref\W02-Assignment-ASP.NET-Core.dll
+C:\Users\rony1\W02-Assignment-ASP.NET-Core\obj\Debug\net8.0\W02-Assignment-ASP.NET-Core.sourcelink.json
