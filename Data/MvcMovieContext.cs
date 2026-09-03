@@ -5,12 +5,14 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using W02_Assignment_ASP.NET_Core.Models;
 
-    public class MvcMovieContext : DbContext
-    {
-        public MvcMovieContext (DbContextOptions<MvcMovieContext> options)
-            : base(options)
-        {
-        }
+namespace W02_Assignment_ASP.NET_Core.Data;
 
-        public DbSet<W02_Assignment_ASP.NET_Core.Models.Movie> Movie { get; set; } = default!;
+public class MvcMovieContext : DbContext
+{
+    public MvcMovieContext (DbContextOptions<MvcMovieContext> options)
+        : base(options)
+    {
     }
+
+    public DbSet<W02_Assignment_ASP.NET_Core.Models.Movie> Movie { get; set; } = default!;
+}

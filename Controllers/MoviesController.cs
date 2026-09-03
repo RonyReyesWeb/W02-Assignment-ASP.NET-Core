@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using W02_Assignment_ASP.NET_Core.Data;
 using W02_Assignment_ASP.NET_Core.Models;
 
 namespace W02_Assignment_ASP.NET_Core.Controllers
