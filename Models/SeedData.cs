@@ -21,33 +21,32 @@ public static class SeedData
                 return;   // DB has been seeded
             }
             context.Movie.AddRange(
-              new Movie
-            {
-                Title = "Inception",
-                ReleaseDate = DateTime.Parse("2010-7-16"),
-                Genre = "Sci-Fi",
-                Rating = "PG-13",
-                Price = 9.99M
-            },
-            new Movie
-            {
-                Title = "The Dark Knight",
-                ReleaseDate = DateTime.Parse("2008-7-18"),
-                Genre = "Action",
-                Rating = "PG-13",
-                Price = 8.99M
-            },
-            new Movie
-            {
-                Title = "Interstellar",
-                ReleaseDate = DateTime.Parse("2014-11-7"),
-                Genre = "Sci-Fi",
-                Rating = "PG-13",
-                Price = 10.99M
-            }
+                new Movie
+                {
+                    Title = "Inception",
+                    ReleaseDate = DateTime.Parse("2010-7-16"),
+                    Genre = "Science Fiction",
+                    Rating = "PG-13",
+                    Price = 9.99M
+                },
+                new Movie
+                {
+                    Title = "The Dark Knight",
+                    ReleaseDate = DateTime.Parse("2008-7-18"),
+                    Genre = "Action",
+                    Rating = "PG-13",
+                    Price = 8.99M
+                },
+                new Movie
+                {
+                    Title = "Interstellar",
+                    ReleaseDate = DateTime.Parse("2014-11-7"),
+                    Genre = "Science Fiction",
+                    Rating = "PG-13",
+                    Price = 10.99M
+                }
             );
             context.SaveChanges();
         }
     }
 }
- 
